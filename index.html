@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suivi Meme Coins - DexScreener</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Suivi des Meme Coins sur DexScreener</h1>
+    <p>Consultez les meilleurs meme coins et leur sécurité via RugCheck.</p>
+  </header>
+
+  <section id="filters">
+    <label for="volume">Volume minimum:</label>
+    <input type="number" id="volume" placeholder="Volume en USD">
+
+    <label for="price">Prix maximum:</label>
+    <input type="number" id="price" placeholder="Prix maximum">
+
+    <button onclick="filterCoins()">Appliquer les filtres</button>
+  </section>
+
+  <section id="coins">
+    <h2>Coins populaires</h2>
+    <div id="coins-list">
+      <!-- Les coins seront insérés ici par JavaScript -->
+    </div>
+  </section>
+
+  <footer>
+    <p>Site créé par [Ton Nom].</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
